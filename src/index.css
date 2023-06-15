@@ -1,0 +1,195 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  @import url("https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;600;700&display=swap");
+
+  html {
+    font-family: "Rubik", sans-serif;
+  }
+  .button {
+    @apply border-none py-[10px] px-[18px] rounded-full;
+  }
+
+  .button__primary {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 22px;
+    color: #ffffff;
+    background-color: #8bac3e;
+  }
+
+  .button__primary:hover {
+    background-color: #769333;
+  }
+
+  .button__secondary {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 22px;
+    color: #333333;
+    background-color: #f2f2f2;
+  }
+
+  .badges__li {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 8px;
+    line-height: 14px;
+    color: #ffffff;
+    background-color: #e7462d;
+    border-radius: 8px;
+  }
+
+  .hero {
+    background-image: linear-gradient(
+        rgba(255, 255, 255, 0.98),
+        rgba(255, 255, 255, 0.98)
+      ),
+      url("../src/components/img/hero/background.png");
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .hero-md {
+    background-image: linear-gradient(
+        rgba(255, 255, 255, 0.98),
+        rgba(255, 255, 255, 0.98)
+      ),
+      url("../src/components/img/hero/background.png");
+    width: 100%;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .col__1 {
+    width: 482px;
+  }
+  .hero__heading {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 64px;
+    line-height: 64px;
+    color: #8bac3e;
+  }
+  .hero__desc {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 29px;
+    color: #757575;
+  }
+
+  .background-overlay {
+    position: relative;
+    width: 300px;
+    border-radius: 8px;
+    /* transition: all 0.3s ease-in; */
+
+    background-image: linear-gradient(
+        rgba(255, 255, 255, 0.8),
+        rgba(255, 255, 255, 0.8)
+      ),
+      url("../src/components/img/hero/background.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+
+  .background-overlay__category {
+    position: relative;
+    width: 282px;
+    border-radius: 8px;
+    /* transition: all 0.3s ease-in; */
+
+    background-image: linear-gradient(
+        rgba(255, 255, 255, 0.8),
+        rgba(255, 255, 255, 0.8)
+      ),
+      url("../src/components/img/hero/background.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+
+  .category__heading__card {
+    font-weight: 500;
+    font-size: 26px;
+    /* line-height: 50px; */
+    color: #000000;
+  }
+
+  .category__desc__card {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 21px;
+    color: #8bac3e;
+    margin-bottom: 5px;
+  }
+
+  .button__category {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    color: #ffffff;
+  }
+
+  .trending__heading-md {
+    font-weight: 500;
+    font-size: 38px;
+    line-height: 50px;
+  }
+  .trending__heading {
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 30px;
+    align-items: center;
+  }
+
+  .footer__copy {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+    letter-spacing: 0.05em;
+    color: #757575;
+  }
+
+  .footer__desc {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: #757575;
+  }
+
+  .footer__heading {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 24px;
+    color: #333333;
+  }
+
+  footer li {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    color: #757575;
+    cursor: pointer;
+  }
+  .footer__desc__contact {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    color: #000000;
+  }
+
+  .heading__footer-mobile {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    color: #757575;
+  }
+}
