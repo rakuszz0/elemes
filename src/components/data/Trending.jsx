@@ -14,7 +14,7 @@ const Trending = () => {
     <section id="trending">
       <div className="container mx-auto py-[40px]">
         <div className="container py-10 mx-auto ">
-          <h1 className="trending__heading md:trending__heading-md mx-6 md:mx-0 w-[250px] md:w-[500px] ">
+          <h1 className="trending__heading md:trending__heading-md mx-6 ml-3 md:mx-0 w-[250px] md:w-[500px] ">
             Browser Our Trending <br />
             <span className=" text-[#A4B441]"> Receipt</span>
           </h1>

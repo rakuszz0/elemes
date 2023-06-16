@@ -30,14 +30,14 @@ const Hero = () => {
               </div>
             </div>
             <div className=" w-[350px] md:w-auto mb-8 mx-6 md:mx-0">
-              <p className="hero__desc">
+              <p className="hero__desc ">
                 I would think that conserving our natural resources <br />{" "}
                 should be a conservative position: Not to waste food, and <br />{" "}
                 not to throw away a lot of the food that we buy.
               </p>
             </div>
             <div className="flex gap-3 w-[300px] md:w-auto mx-6  md:mx-0">
-              <button className="button button__primary">
+              <button className="button button__primary ">
                 Daftar Sekarang
               </button>
               <button className="button button__secondary">About Us</button>
